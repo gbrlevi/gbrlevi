@@ -1,9 +1,8 @@
 # Hi there 
 
-I'm Thiago de Oliveira, a passionate software developer and tech enthusiast. I currently work as a Full-Stack Developer. </br>
+I'm Gabriel Levi, a passionate software developer and tech enthusiast. I currently work as a Full-Stack Developer. </br>
 With a few years of experience in the field, I've had the opportunity to work on several interesting projects and explore different technologies.
 
-> <span style="color: green;">“Do, or do not. There is no 'try'.” — Yoda</span>
 
 #  Expertise  
 
