@@ -1,25 +1,33 @@
-## Gabriel Levi
+# Hi there 
 
-![Biel GitHub stats](https://github-readme-stats.vercel.app/api?username=gbrlevi&show_icons=true&theme=tokyonight)
+I'm Thiago de Oliveira, a passionate software developer and tech enthusiast. I currently work as a Full-Stack Developer. </br>
+With a few years of experience in the field, I've had the opportunity to work on several interesting projects and explore different technologies.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gbrlevi&layout=donut&theme=dark)](https://github.com/KaduLm/github-readme-stats)
+> <span style="color: green;">“Do, or do not. There is no 'try'.” — Yoda</span>
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="biel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="biel-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="biel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="biel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="biel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="biel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="biel-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-</div>
+#  Expertise  
+
+Passionate about building seamless and scalable web solutions, I specialize in both front-end and back-end development, merging intuitive user experiences with robust server-side logic. With some years of experience across the full web development stack, I’ve led teams, designed comprehensive system architectures, and ensured top performance in both web applications and APIs.
+
+Throughout my career, I’ve served as a Technical Lead in roles that required balancing in-depth coding expertise with effective team management. From designing polished user interfaces to implementing efficient server-side solutions, I’ve guided projects with a strategic focus on delivering high-quality results, keeping an eye on performance, security, and scalability.
+
+
+# Tech Stack
+
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
+ ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+# Socials:
+
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/gbrleu/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gbrlevi/)
   
-  ##
- 
-<div> 
-  <a href="https://instagram.com/gbrleu" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href="https://discord.gg" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:gablevi@edu.unifor.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  
-</div>
+
+# Stats: 
+
+<a href="https://github.com/skaduhs5232/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=skaduhs5232&theme=dracula" />
+</a>
+<a href="https://github.com/skaduhs5232/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=skaduhs5232&layout=compact&langs_count=8&card_width=320&hide=css&theme=dracula" />
+</a>
