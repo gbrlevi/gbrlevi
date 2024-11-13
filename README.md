@@ -25,9 +25,9 @@ Throughout my career, I’ve served as a Technical Lead in roles that required b
 
 # Stats: 
 
-<a href="https://github.com/skaduhs5232/github-readme-stats">
+<a href="https://github.com/gbrlevi/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=skaduhs5232&theme=dracula" />
 </a>
-<a href="https://github.com/skaduhs5232/convoychat">
+<a href="https://github.com/gbrlevi/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=skaduhs5232&layout=compact&langs_count=8&card_width=320&hide=css&theme=dracula" />
 </a>
