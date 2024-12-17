@@ -1,8 +1,6 @@
 # Hi there 
 
-I'm Gabriel Levi, a passionate software developer and tech enthusiast. I currently work as a Full-Stack Developer. </br>
-With a few years of experience in the field, I've had the opportunity to work on several interesting projects and explore different technologies.
-
+I'm Gabriel Levi, a passionate software developer and tech enthusiast.
 
 #  Expertise  
 
