@@ -2,11 +2,6 @@
 
 I'm Gabriel Levi, a passionate software developer and tech enthusiast.
 
-#  Expertise  
-
-Passionate about building seamless and scalable web solutions, I specialize in both front-end and back-end development, merging intuitive user experiences with robust server-side logic. With some years of experience across the full web development stack, I’ve led teams, designed comprehensive system architectures, and ensured top performance in both web applications and APIs.
-
-Throughout my career, I’ve served as a Technical Lead in roles that required balancing in-depth coding expertise with effective team management. From designing polished user interfaces to implementing efficient server-side solutions, I’ve guided projects with a strategic focus on delivering high-quality results, keeping an eye on performance, security, and scalability.
 
 
 # Tech Stack
@@ -17,7 +12,7 @@ Throughout my career, I’ve served as a Technical Lead in roles that required b
 # Socials:
 
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/gbrleu/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gbrlevi/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gbrlevi/)
   
 
 # Stats: 
