@@ -1,0 +1,142 @@
+{
+ "gbrlevi/BibCine": {
+  "add": 3149,
+  "del": 1017,
+  "pushedAt": "2025-05-28T16:11:33Z"
+ },
+ "gbrlevi/BookFinder": {
+  "add": 347330,
+  "del": 8,
+  "pushedAt": "2025-06-04T01:22:32Z"
+ },
+ "gbrlevi/CANA-algoritmos": {
+  "add": 1005,
+  "del": 212,
+  "pushedAt": "2025-06-11T03:40:55Z"
+ },
+ "gbrlevi/JDBCourses": {
+  "add": 9279,
+  "del": 514,
+  "pushedAt": "2025-06-10T00:01:23Z"
+ },
+ "gbrlevi/Peer": {
+  "add": 574,
+  "del": 8,
+  "pushedAt": "2026-09-08T23:38:21Z"
+ },
+ "gbrlevi/ProjetoDocumentosAlunos": {
+  "add": 220,
+  "del": 1,
+  "pushedAt": "2025-01-09T23:45:35Z"
+ },
+ "gbrlevi/async_scrapper": {
+  "add": 203,
+  "del": 6,
+  "pushedAt": "2025-11-02T09:18:03Z"
+ },
+ "gbrlevi/beecrowd": {
+  "add": 277,
+  "del": 138,
+  "pushedAt": "2024-06-24T15:37:02Z"
+ },
+ "gbrlevi/botbot": {
+  "add": 0,
+  "del": 0,
+  "pushedAt": "2025-11-08T13:40:46Z"
+ },
+ "gbrlevi/computacao-distribuida": {
+  "add": 356,
+  "del": 82,
+  "pushedAt": "2026-05-24T20:29:34Z"
+ },
+ "gbrlevi/distributed-computing-clean-architecture": {
+  "add": 440,
+  "del": 0,
+  "pushedAt": "2026-08-12T22:41:26Z"
+ },
+ "gbrlevi/eulerian-graphs": {
+  "add": 4519,
+  "del": 6,
+  "pushedAt": "2025-10-04T14:43:48Z"
+ },
+ "gbrlevi/gbrlevi": {
+  "add": 640,
+  "del": 127,
+  "pushedAt": "2026-09-12T00:53:29Z"
+ },
+ "gbrlevi/guessthe-backend": {
+  "add": 3424,
+  "del": 214,
+  "pushedAt": "2026-06-22T00:32:18Z"
+ },
+ "gbrlevi/guessthe-frontend": {
+  "add": 12128,
+  "del": 1789,
+  "pushedAt": "2026-06-25T23:25:59Z"
+ },
+ "gbrlevi/hypr": {
+  "add": 452,
+  "del": 0,
+  "pushedAt": "2026-04-23T21:13:46Z"
+ },
+ "gbrlevi/ia-api": {
+  "add": 0,
+  "del": 0,
+  "pushedAt": "2026-03-23T14:00:49Z"
+ },
+ "gbrlevi/java-page-replacement-algorithms": {
+  "add": 675,
+  "del": 6,
+  "pushedAt": "2025-10-31T00:58:34Z"
+ },
+ "gbrlevi/nutricao-frontend-final": {
+  "add": 11081,
+  "del": 592,
+  "pushedAt": "2025-06-12T23:10:17Z"
+ },
+ "gbrlevi/nutricao-frontendapi": {
+  "add": 427107,
+  "del": 0,
+  "pushedAt": "2025-06-07T06:00:16Z"
+ },
+ "gbrlevi/python-microservice": {
+  "add": 685,
+  "del": 404,
+  "pushedAt": "2025-06-12T21:56:04Z"
+ },
+ "gbrlevi/regula-ai-backend": {
+  "add": 3904,
+  "del": 1709,
+  "pushedAt": "2026-06-08T01:19:27Z"
+ },
+ "gbrlevi/regula-ai-backend-old": {
+  "add": 791,
+  "del": 0,
+  "pushedAt": "2025-11-27T01:05:08Z"
+ },
+ "gbrlevi/toy_robot": {
+  "add": 892,
+  "del": 29,
+  "pushedAt": "2025-11-01T23:25:10Z"
+ },
+ "italooliveira-sh/regula-ai-backend": {
+  "add": 3904,
+  "del": 1709,
+  "pushedAt": "2026-06-19T04:08:38Z"
+ },
+ "luizvitord/Problema-do-caixeiro-viajante-Grafos": {
+  "add": 329,
+  "del": 132,
+  "pushedAt": "2025-10-16T21:16:14Z"
+ },
+ "luizvitord/RideFast": {
+  "add": 1282,
+  "del": 446,
+  "pushedAt": "2025-12-09T01:52:47Z"
+ },
+ "luizvitord/Sistema_Gerenciador_Arquivos": {
+  "add": 95,
+  "del": 2,
+  "pushedAt": "2025-12-06T01:21:06Z"
+ }
+}

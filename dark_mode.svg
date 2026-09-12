@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1053" height="607" viewBox="0 0 1053 607" font-size="14" font-family="'Cascadia Code','JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono','Courier New',monospace" role="img" aria-label="gbrlevi neofetch profile card">
+<style>text{white-space:pre;dominant-baseline:middle}@keyframes fadeIn{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:translateX(0)}}.f{animation:fadeIn .45s ease-out both}@media(prefers-reduced-motion:reduce){.f{animation:none}}.art{fill:#dfe4ec}.lbl{fill:#e8a05c}.val{fill:#a9c9ff}.dot{fill:#3c4166}.dash{fill:#3c4166}.sec{fill:#c9d1d9}.nick{fill:#70a5fd;font-weight:bold}.num{fill:#f0f3f8}.sep{fill:#3c4166}.add{fill:#3fb950}.rem{fill:#f85149}</style>
+<rect x="0" y="0" width="1053" height="607" rx="14" fill="#1a1b27" stroke="#2b2d42" stroke-width="1"/>
+<g class="art">
+<text class="f" x="22" y="34" style="animation-delay:0.10s">  :# #         ,*@@@@@@@@@#    *          .@@@@@@%</text>
+<text class="f" x="22" y="53" style="animation-delay:0.12s">   #;@+      +@@@@@@@@@@@@@    ;          ,@@@@@@@</text>
+<text class="f" x="22" y="72" style="animation-delay:0.14s">   ;@@@.   =@@@@@@@@@@@@@@@    %          *@@@@@@@</text>
+<text class="f" x="22" y="91" style="animation-delay:0.17s">.   @%@;  #@@@@@@@@@@@@@@@@   ,; %.    .  @@@@@@@@</text>
+<text class="f" x="22" y="110" style="animation-delay:0.19s">    ==== *@@@@@@@@@@@@@@@@@   +,+@@@;,   #@@@@@@@@</text>
+<text class="f" x="22" y="129" style="animation-delay:0.21s">@+  :@+::@@@@@@@@@@@@@@@@@@.  %+@@@@@@@@@@@@@@@@@@</text>
+<text class="f" x="22" y="148" style="animation-delay:0.23s">@@+  +@+,@@@@@@@@@@@@@@@@@@: .@@@@@@@@@@@@@@@@@@@@</text>
+<text class="f" x="22" y="167" style="animation-delay:0.25s">@@@*  +@;@@@@@@@@@@@@@@@@@@@+=@@@@@@@@@@@@@@@@@@@@</text>
+<text class="f" x="22" y="186" style="animation-delay:0.28s">@@@@#   *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="f" x="22" y="205" style="animation-delay:0.30s">@@@@@@=.+@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@=%@@@@@</text>
+<text class="f" x="22" y="224" style="animation-delay:0.32s">@@@@@@@@@#@@@@@@@@@@# .,+@@@@@@@@@@@@@@@@@@#=;@@@@</text>
+<text class="f" x="22" y="243" style="animation-delay:0.34s">@@@@@@@@@@@@@@@@@;@@@@@@@@#*@%;@@@@@@#,#@@@@@@@@@@</text>
+<text class="f" x="22" y="262" style="animation-delay:0.36s">@@@@@@@@@@@@@@@@@@#@#@@#:+;%@@, :@@@@=, @@@:  =@@@</text>
+<text class="f" x="22" y="281" style="animation-delay:0.39s">*@@@@@@@@@@@@@@@@@@%#=*;%@+ =@@  *@@@ , *@@    =#@</text>
+<text class="f" x="22" y="300" style="animation-delay:0.41s">@@@@@@@@@@@@@*@@@*;@@:=   .,,:** @@@@; ;:@#</text>
+<text class="f" x="22" y="319" style="animation-delay:0.43s">@@@@@@@@@@@@@:+@@@%=#@;         @@@@@@.,%*%</text>
+<text class="f" x="22" y="338" style="animation-delay:0.45s">@@@@#@@@@@@.@# *@@%@%*#+ ,++;  *@@@#@ *.@=@.</text>
+<text class="f" x="22" y="357" style="animation-delay:0.47s">+.  @@**@@. ;#@*@@#@@@@@#:    *@##%@@*#@@@+*</text>
+<text class="f" x="22" y="376" style="animation-delay:0.50s">   ,@; #@+  : @#.#%%@@@#@@@%=%*@@=**@@@@, ,:.</text>
+<text class="f" x="22" y="395" style="animation-delay:0.52s">   =;  +#   . @@. *:%@@##@@@@@*,.*@@@@@@@@@*</text>
+<text class="f" x="22" y="414" style="animation-delay:0.54s">   *   ,,     =@*  =;@@@@@@@@@@@@@@@@@@@@@@@*</text>
+<text class="f" x="22" y="433" style="animation-delay:0.56s">       ,      @@@:  =@@@@*@@*%@#@@@@@@@@@@@@@@=,</text>
+<text class="f" x="22" y="452" style="animation-delay:0.58s">       .     @@@@@* %@@@@;=@*%%#@#@@@@@@@@@@@@@@@%</text>
+<text class="f" x="22" y="471" style="animation-delay:0.61s">           ,@@@@@@@#@@@@@= ,*% .;@@@@@@@@@@@@@@@@#</text>
+<text class="f" x="22" y="490" style="animation-delay:0.63s">         .=%@@@@= @@@@@@@@  .*   ;@@@@@@#%@@@@@@@@</text>
+<text class="f" x="22" y="509" style="animation-delay:0.65s">       :*%@@@@*. ,@@@@@@@:  .,   ;@@@@@*  ;#@@@@@@</text>
+<text class="f" x="22" y="528" style="animation-delay:0.67s">     =#*#@@@@;   ;@@@@@@@        =@@@@@:    =@@@@@</text>
+</g>
+<text class="f" x="484" y="34" style="animation-delay:0.45s"><tspan class="nick">gbrlevi@github</tspan><tspan class="dash"> ------------------------------------------------</tspan></text>
+<text class="f" x="484" y="72" style="animation-delay:0.54s"><tspan class="lbl">OS:</tspan><tspan class="dot"> ................................... </tspan><tspan class="val">Arch Linux / Windows 11</tspan></text>
+<text class="f" x="484" y="91" style="animation-delay:0.58s"><tspan class="lbl">Uptime:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">22 years, 9 months, 13 days</tspan></text>
+<text class="f" x="484" y="110" style="animation-delay:0.63s"><tspan class="lbl">Host:</tspan><tspan class="dot"> .................................................. </tspan><tspan class="val">Exitus</tspan></text>
+<text class="f" x="484" y="129" style="animation-delay:0.68s"><tspan class="lbl">Kernel:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">Universidade de Fortaleza</tspan></text>
+<text class="f" x="484" y="148" style="animation-delay:0.72s"><tspan class="lbl">Shell:</tspan><tspan class="dot"> ......................................... </tspan><tspan class="val">zsh 5.9 / bash</tspan></text>
+<text class="f" x="484" y="167" style="animation-delay:0.77s"><tspan class="lbl">IDE/Text.Editor:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">VSCode, IntelliJ IDEA, Vim</tspan></text>
+<text class="f" x="484" y="205" style="animation-delay:0.85s"><tspan class="lbl">Languages.Code:</tspan><tspan class="dot"> ...... </tspan><tspan class="val">Python, Java, TypeScript, JavaScript, C#</tspan></text>
+<text class="f" x="484" y="224" style="animation-delay:0.90s"><tspan class="lbl">Languages.Computer:</tspan><tspan class="dot"> ............. </tspan><tspan class="val">SQL, Git, Shellscripts, LaTeX</tspan></text>
+<text class="f" x="484" y="243" style="animation-delay:0.95s"><tspan class="lbl">Languages.Real:</tspan><tspan class="dot"> ............................ </tspan><tspan class="val">English, Português</tspan></text>
+<text class="f" x="484" y="281" style="animation-delay:1.03s"><tspan class="lbl">Stack.Cloud:</tspan><tspan class="dot"> . </tspan><tspan class="val">GCP, Oracle Cloud, AWS, Supabase, Vercel, Fly.io</tspan></text>
+<text class="f" x="484" y="319" style="animation-delay:1.12s"><tspan class="lbl">Theory.Focus:</tspan><tspan class="dot"> .......... </tspan><tspan class="val">Deep Learning, ST-GCN, OS Architecture</tspan></text>
+<text class="f" x="484" y="338" style="animation-delay:1.17s"><tspan class="lbl">AI.Domain:</tspan><tspan class="dot"> ... </tspan><tspan class="val">Kinematic Pose Dynamics, Real-Time Video Buffers</tspan></text>
+<text class="f" x="484" y="376" style="animation-delay:1.26s"><tspan class="lbl">Hobbies.Hardware:</tspan><tspan class="dot"> ... </tspan><tspan class="val">PC Building, Thinkpad Modding, Audio Gear</tspan></text>
+<text class="f" x="484" y="395" style="animation-delay:1.30s"><tspan class="lbl">Hobbies.Software:</tspan><tspan class="dot"> ..... </tspan><tspan class="val">Linux Ricing, Remote Streaming, Homelab</tspan></text>
+<text class="f" x="484" y="433" style="animation-delay:1.40s"><tspan class="sec">- Contact </tspan><tspan class="dash">-----------------------------------------------------</tspan></text>
+<text class="f" x="484" y="452" style="animation-delay:1.44s"><tspan class="lbl">Email:</tspan><tspan class="dot"> ..................................... </tspan><tspan class="val">gbrlevi7@gmail.com</tspan></text>
+<text class="f" x="484" y="471" style="animation-delay:1.48s"><tspan class="lbl">LinkedIn:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">linkedin.com/in/gbrlevi</tspan></text>
+<text class="f" x="484" y="509" style="animation-delay:1.57s"><tspan class="sec">- GitHub Stats </tspan><tspan class="dash">------------------------------------------------</tspan></text>
+<text class="f" x="484" y="528" style="animation-delay:1.62s"><tspan class="lbl">Repos:</tspan><tspan class="dot"> ... </tspan><tspan class="num">24 {Contributed: 4}</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Stars:</tspan><tspan class="dot"> ..................... </tspan><tspan class="num">3</tspan></text>
+<text class="f" x="484" y="547" style="animation-delay:1.66s"><tspan class="lbl">Commits:</tspan><tspan class="dot"> ................. </tspan><tspan class="num">257</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Followers:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">18</tspan></text>
+<text class="f" x="484" y="566" style="animation-delay:1.71s"><tspan class="lbl">Lines of Code:</tspan><tspan class="dot"> ................. </tspan><tspan class="num">825,590</tspan><tspan class="sep"> ( </tspan><tspan class="add">834,741++</tspan><tspan class="sep">, </tspan><tspan class="rem">9,151--</tspan><tspan class="sep"> )</tspan></text>
+</svg>
