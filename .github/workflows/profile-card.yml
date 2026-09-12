@@ -30,19 +30,19 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Gerar SVGs
+      - name: Generate SVGs
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python generate.py
 
-      - name: Commitar se mudou
+      - name: Commits if changed
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name  "gbrlevi"
+          git config user.email "66504106+gbrlevi@users.noreply.github.com"
           git add dark_mode.svg light_mode.svg .cache
           if git diff --quiet --cached; then
             echo "Nada mudou."
           else
-            git commit -m "chore: atualiza card do perfil [skip ci]"
+            git commit -m "chore: update profile card [skip ci]"
             git push
           fi
