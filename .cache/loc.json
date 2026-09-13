@@ -1,4 +1,9 @@
 {
+ "IsabelleLopes1998/regula-ai-front": {
+  "add": 0,
+  "del": 0,
+  "pushedAt": "2026-09-12T20:18:37Z"
+ },
  "gbrlevi/BibCine": {
   "add": 3149,
   "del": 1017,
@@ -60,9 +65,9 @@
   "pushedAt": "2025-10-04T14:43:48Z"
  },
  "gbrlevi/gbrlevi": {
-  "add": 652,
-  "del": 139,
-  "pushedAt": "2026-09-12T01:19:02Z"
+  "add": 659,
+  "del": 146,
+  "pushedAt": "2026-09-12T10:42:05Z"
  },
  "gbrlevi/guessthe-backend": {
   "add": 3424,
@@ -105,14 +110,14 @@
   "pushedAt": "2025-06-12T21:56:04Z"
  },
  "gbrlevi/regula-ai-backend": {
-  "add": 3904,
-  "del": 1709,
-  "pushedAt": "2026-06-08T01:19:27Z"
+  "add": 5312,
+  "del": 1725,
+  "pushedAt": "2026-09-12T20:13:09Z"
  },
  "gbrlevi/regula-ai-backend-old": {
-  "add": 791,
-  "del": 0,
-  "pushedAt": "2025-11-27T01:05:08Z"
+  "add": 5312,
+  "del": 1725,
+  "pushedAt": "2026-09-12T20:00:46Z"
  },
  "gbrlevi/toy_robot": {
   "add": 892,
