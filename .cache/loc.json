@@ -65,9 +65,9 @@
   "pushedAt": "2025-10-04T14:43:48Z"
  },
  "gbrlevi/gbrlevi": {
-  "add": 659,
-  "del": 146,
-  "pushedAt": "2026-09-12T10:42:05Z"
+  "add": 681,
+  "del": 163,
+  "pushedAt": "2026-09-13T11:47:50Z"
  },
  "gbrlevi/guessthe-backend": {
   "add": 3424,
@@ -94,6 +94,11 @@
   "del": 6,
   "pushedAt": "2025-10-31T00:58:34Z"
  },
+ "gbrlevi/ldktela": {
+  "add": 58138,
+  "del": 22556,
+  "pushedAt": "2026-09-14T01:13:07Z"
+ },
  "gbrlevi/nutricao-frontend-final": {
   "add": 11081,
   "del": 592,
@@ -110,6 +115,11 @@
   "pushedAt": "2025-06-12T21:56:04Z"
  },
  "gbrlevi/regula-ai-backend": {
+  "add": 3904,
+  "del": 1709,
+  "pushedAt": "2026-06-19T04:08:38Z"
+ },
+ "gbrlevi/regula-ai-backend-not-old": {
   "add": 5312,
   "del": 1725,
   "pushedAt": "2026-09-12T20:13:09Z"
