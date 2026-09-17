@@ -32,7 +32,7 @@
 </g>
 <text class="f" x="484" y="34" style="animation-delay:0.45s"><tspan class="nick">gbrlevi@github</tspan><tspan class="dash"> ------------------------------------------------</tspan></text>
 <text class="f" x="484" y="72" style="animation-delay:0.54s"><tspan class="lbl">OS:</tspan><tspan class="dot"> ................................... </tspan><tspan class="val">Arch Linux / Windows 11</tspan></text>
-<text class="f" x="484" y="91" style="animation-delay:0.58s"><tspan class="lbl">Uptime:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">22 years, 9 months, 17 days</tspan></text>
+<text class="f" x="484" y="91" style="animation-delay:0.58s"><tspan class="lbl">Uptime:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">22 years, 9 months, 18 days</tspan></text>
 <text class="f" x="484" y="110" style="animation-delay:0.63s"><tspan class="lbl">Host:</tspan><tspan class="dot"> .................................................. </tspan><tspan class="val">Exitus</tspan></text>
 <text class="f" x="484" y="129" style="animation-delay:0.68s"><tspan class="lbl">Kernel:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">Universidade de Fortaleza</tspan></text>
 <text class="f" x="484" y="148" style="animation-delay:0.72s"><tspan class="lbl">Shell:</tspan><tspan class="dot"> ......................................... </tspan><tspan class="val">zsh 5.9 / bash</tspan></text>
@@ -50,6 +50,6 @@
 <text class="f" x="484" y="471" style="animation-delay:1.48s"><tspan class="lbl">LinkedIn:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">linkedin.com/in/gbrlevi</tspan></text>
 <text class="f" x="484" y="509" style="animation-delay:1.57s"><tspan class="sec">- GitHub Stats </tspan><tspan class="dash">------------------------------------------------</tspan></text>
 <text class="f" x="484" y="528" style="animation-delay:1.62s"><tspan class="lbl">Repos:</tspan><tspan class="dot"> ... </tspan><tspan class="num">25 {Contributed: 4}</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Stars:</tspan><tspan class="dot"> ..................... </tspan><tspan class="num">3</tspan></text>
-<text class="f" x="484" y="547" style="animation-delay:1.66s"><tspan class="lbl">Commits:</tspan><tspan class="dot"> ................. </tspan><tspan class="num">317</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Followers:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">19</tspan></text>
-<text class="f" x="484" y="566" style="animation-delay:1.71s"><tspan class="lbl">Lines of Code:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">868,336</tspan><tspan class="sep"> ( </tspan><tspan class="add">901,792++</tspan><tspan class="sep">, </tspan><tspan class="rem">33,456--</tspan><tspan class="sep"> )</tspan></text>
+<text class="f" x="484" y="547" style="animation-delay:1.66s"><tspan class="lbl">Commits:</tspan><tspan class="dot"> ................. </tspan><tspan class="num">327</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Followers:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">19</tspan></text>
+<text class="f" x="484" y="566" style="animation-delay:1.71s"><tspan class="lbl">Lines of Code:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">870,959</tspan><tspan class="sep"> ( </tspan><tspan class="add">904,505++</tspan><tspan class="sep">, </tspan><tspan class="rem">33,546--</tspan><tspan class="sep"> )</tspan></text>
 </svg>
