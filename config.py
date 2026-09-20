@@ -95,6 +95,7 @@ THEMES = {
         sec="#c9d1d9", num="#f0f3f8", add="#3fb950", rem="#f85149",
         # arte: tom 0 (mais escuro) -> tom f (mais claro), e os acentos
         art_low="#333b56", art_high="#f2f6fb",
+        art_palette={'A': '#363779', 'B': '#5c6073', 'C': '#687382', 'D': '#75838d', 'E': '#02e6ff', 'F': '#879094', 'H': '#5274ed', 'I': '#949da1', 'J': '#a3acac', 'K': '#ffd746', 'L': '#35fffb', 'M': '#b5bdb8', 'N': '#d3e0b6', 'O': '#faffba'},
         art_green="#7ce082", art_teal="#58c8c4",
         # janela
         chrome_bg="#15161f", chrome_line="#2b2d42", chrome_title="#6b7394",
@@ -105,6 +106,7 @@ THEMES = {
         label="#bc4c00", value="#0550ae", dots="#d8dee4", dash="#afb8c1",
         sec="#57606a", num="#1f2328", add="#1a7f37", rem="#cf222e",
         art_low="#1a2028", art_high="#aab3c0",
+        art_palette={'A': '#171834', 'B': '#2b2e37', 'C': '#353a42', 'D': '#3e454a', 'E': '#007a87', 'F': '#484f52', 'H': '#1131a4', 'I': '#51595c', 'J': '#5c6565', 'K': '#b99000', 'L': '#00ada9', 'M': '#67736c', 'N': '#8eac49', 'O': '#ecfe0f'},
         art_green="#1c8c3c", art_teal="#14828c",
         chrome_bg="#f6f8fa", chrome_line="#d0d7de", chrome_title="#6e7781",
         prompt_sign="#6e7781", prompt_cmd="#1a7f37", cursor="#1a7f37",

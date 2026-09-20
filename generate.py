@@ -260,7 +260,10 @@ def measure(lines):
 
 
 def tone_color(level, T):
-    """'0'..'f' -> cor interpolada; 'G'/'T' -> acentos."""
+    """paleta > acentos > escala '0'..'f'."""
+    pal = T.get("art_palette")
+    if pal and level in pal:
+        return pal[level]
     if level == "G":
         return T.get("art_green", T["art"])
     if level == "T":
