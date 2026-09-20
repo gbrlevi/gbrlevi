@@ -42,11 +42,9 @@ ROWS = [
     ("kv", "Uptime:",           "{uptime}"),
     ("kv", "Host:",             "Exitus"),
     ("kv", "Kernel:",           "Universidade de Fortaleza"),
-    ("kv", "Shell:",            "zsh 5.9 / bash"),
     ("kv", "IDE/Text.Editor:",  "VSCode, IntelliJ IDEA, Vim"),
     ("gap",),
     ("kv", "Languages.Code:",   "Python, Java, TypeScript, JavaScript, C#"),
-    ("kv", "Languages.Computer:",  "SQL, Git, Shellscripts, LaTeX"),
     ("kv", "Languages.Real:",   "English, Portugu\u00eas"),
     ("gap",),
     ("kv", "Stack.Cloud:",      "GCP, Oracle Cloud, AWS, Supabase, Vercel, Fly.io"),
@@ -93,7 +91,7 @@ FONT_STACK = ("'Cascadia Code','JetBrains Mono','Fira Code','SF Mono',"
 THEMES = {
     "dark": dict(
         bg="#1a1b27", border="#2b2d42", art="#dfe4ec", header="#70a5fd",
-        label="#e8a05c", value="#a9c9ff", dots="#3c4166", dash="#3c4166",
+        label="#7ce082", value="#a9c9ff", dots="#3c4166", dash="#3c4166",
         sec="#c9d1d9", num="#f0f3f8", add="#3fb950", rem="#f85149",
         # arte: tom 0 (mais escuro) -> tom f (mais claro), e os acentos
         art_low="#333b56", art_high="#f2f6fb",
