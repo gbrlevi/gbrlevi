@@ -1,3 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Gera dark_mode.svg e light_mode.svg com estatisticas reais do GitHub.
+
+Uso local:
+    export ACCESS_TOKEN=ghp_xxx
+    python generate.py
+
+Sem token (preview offline, numeros falsos):
+    python generate.py --offline
+"""
+
 import os
 import sys
 import json
@@ -247,15 +259,65 @@ def measure(lines):
     return best
 
 
-def render(theme, art, lines, info_cols):
+def tone_color(level, T):
+    """'0'..'f' -> cor interpolada; 'G'/'T' -> acentos."""
+    if level == "G":
+        return T.get("art_green", T["art"])
+    if level == "T":
+        return T.get("art_teal", T["art"])
+    try:
+        v = int(level, 16) / 15.0
+    except ValueError:
+        return T["art"]
+    lo = T.get("art_low")
+    hi = T.get("art_high")
+    if not lo or not hi:
+        return T["art"]
+    a = [int(lo[i:i + 2], 16) for i in (1, 3, 5)]
+    b = [int(hi[i:i + 2], 16) for i in (1, 3, 5)]
+    return "#%02x%02x%02x" % tuple(int(a[i] + (b[i] - a[i]) * v) for i in range(3))
+
+
+def art_line_svg(chars, tones, T):
+    """Agrupa caracteres vizinhos de mesma cor num unico tspan."""
+    if tones is None:
+        return E(chars)
+    parts, run, cur = [], "", None
+    for i, c in enumerate(chars):
+        lev = tones[i] if i < len(tones) else " "
+        col = None if c == " " else tone_color(lev, T)
+        if col != cur and run:
+            parts.append((cur, run))
+            run = ""
+        cur, run = col, run + c
+    if run:
+        parts.append((cur, run))
+    out = []
+    for col, txt in parts:
+        if col is None:
+            out.append(E(txt))
+        else:
+            out.append('<tspan fill="%s">%s</tspan>' % (col, E(txt)))
+    return "".join(out)
+
+
+def render(theme, art, tone, lines, info_cols):
     T = C.THEMES[theme]
     fs, lh = C.FONT_SIZE, C.LINE_HEIGHT
     ch = fs * 0.6
+    chrome = getattr(C, "TERMINAL_CHROME", False)
+    cursor = getattr(C, "SHOW_CURSOR", False)
+
     info_x = C.PAD_LEFT + C.GUTTER_COLS * ch
-    # folga a direita: algumas fontes mono avancam mais que 0.6em
     width = round(info_x + info_cols * fs * 0.625 + 18)
-    rows = max(len(art), len(lines))
-    height = round(C.PAD_TOP + rows * lh + 22)
+
+    bar_h = 34.0 if chrome else 0.0
+    top = bar_h + C.PAD_TOP
+    prompt_rows = 2 if chrome else 0            # linha do prompt + linha em branco
+    body_top = top + prompt_rows * lh
+    body_rows = max(len(art), len(lines))
+    tail = (2 * lh) if cursor else 0.0
+    height = round(body_top + body_rows * lh + tail + 20)
 
     s = []
     s.append('<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" '
@@ -268,30 +330,61 @@ def render(theme, art, lines, info_cols):
             '.f{animation:fadeIn .45s ease-out both}'
             '@media(prefers-reduced-motion:reduce){.f{animation:none}}'
             ) if C.ANIMATE else ''
-    s.append('<style>text{white-space:pre;dominant-baseline:middle}%s'
+    blink = ('@keyframes blink{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}'
+             '.cur{animation:blink 1.15s step-end infinite}'
+             '@media(prefers-reduced-motion:reduce){.cur{animation:none}}'
+             ) if cursor else ''
+    s.append('<style>text{white-space:pre;dominant-baseline:middle}%s%s'
              '.art{fill:%s}.lbl{fill:%s}.val{fill:%s}.dot{fill:%s}.dash{fill:%s}'
              '.sec{fill:%s}.nick{fill:%s;font-weight:bold}.num{fill:%s}'
              '.sep{fill:%s}.add{fill:%s}.rem{fill:%s}</style>'
-             % (anim, T["art"], T["label"], T["value"], T["dots"], T["dash"],
+             % (anim, blink, T["art"], T["label"], T["value"], T["dots"], T["dash"],
                 T["sec"], T["header"], T["num"], T["dash"], T["add"], T["rem"]))
 
     s.append('<rect x="0" y="0" width="%d" height="%d" rx="14" fill="%s" '
              'stroke="%s" stroke-width="1"/>' % (width, height, T["bg"], T["border"]))
 
-    def text(x, y, delay, body):
+    # ---- barra de titulo
+    if chrome:
+        s.append('<path d="M0 14a14 14 0 0 1 14-14h%.0fa14 14 0 0 1 14 14v%.0fH0Z" '
+                 'fill="%s"/>' % (width - 28, bar_h - 14, T.get("chrome_bg", T["bg"])))
+        s.append('<line x1="0" y1="%.1f" x2="%d" y2="%.1f" stroke="%s" '
+                 'stroke-width="1"/>' % (bar_h, width, bar_h, T.get("chrome_line", T["border"])))
+        for i, col in enumerate(("#ff5f57", "#febc2e", "#28c840")):
+            s.append('<circle cx="%.1f" cy="%.1f" r="5.5" fill="%s"/>'
+                     % (22 + i * 19, bar_h / 2, col))
+        s.append('<text x="%.1f" y="%.1f" text-anchor="middle" font-size="%g" '
+                 'fill="%s">%s</text>'
+                 % (width / 2, bar_h / 2, fs - 1.5,
+                    T.get("chrome_title", T["sec"]), E(C.WINDOW_TITLE)))
+
+    def text(x, y, delay, body, extra=""):
         cls = ' class="f"' if C.ANIMATE else ''
         style = ' style="animation-delay:%.2fs"' % delay if C.ANIMATE else ''
-        return '<text%s x="%g" y="%g"%s>%s</text>' % (cls, x, y, style, body)
+        return '<text%s x="%g" y="%g"%s%s>%s</text>' % (cls, x, y, style, extra, body)
 
+    # ---- linha de prompt
+    if chrome:
+        s.append(text(C.PAD_LEFT, top, 0.05,
+                      '<tspan class="nick">%s</tspan>'
+                      '<tspan fill="%s">%s </tspan>'
+                      '<tspan fill="%s">%s</tspan>'
+                      % (E(C.PROMPT_USER), T.get("prompt_sign", T["dash"]),
+                         E(C.PROMPT_SIGN), T.get("prompt_cmd", T["value"]),
+                         E(C.PROMPT_CMD))))
+
+    # ---- arte
     s.append('<g class="art">')
     for i, line in enumerate(art):
-        s.append(text(C.PAD_LEFT, C.PAD_TOP + i * lh, 0.10 + i * 0.022, E(line)))
+        body = art_line_svg(line, tone[i] if tone else None, T)
+        s.append(text(C.PAD_LEFT, body_top + i * lh, 0.18 + i * 0.022, body))
     s.append('</g>')
 
+    # ---- bloco neofetch
     for i, (kind, p) in enumerate(lines):
         if kind == "gap":
             continue
-        y, d = C.PAD_TOP + i * lh, 0.45 + i * 0.045
+        y, d = body_top + i * lh, 0.50 + i * 0.045
         if kind == "head":
             body = ('<tspan class="nick">%s</tspan><tspan class="dash"> %s</tspan>'
                     % (E(p[0]), p[1]))
@@ -300,8 +393,7 @@ def render(theme, art, lines, info_cols):
                     % (E(p[0]), p[1]))
         elif kind == "kv":
             body = ('<tspan class="lbl">%s</tspan><tspan class="dot">%s</tspan>'
-                    '<tspan class="val">%s</tspan>'
-                    % (E(p[0]), p[1], E(p[2])))
+                    '<tspan class="val">%s</tspan>' % (E(p[0]), p[1], E(p[2])))
         elif kind == "stat2":
             (l1, d1, v1), (l2, d2, v2) = p
             body = ('<tspan class="lbl">%s</tspan><tspan class="dot">%s</tspan>'
@@ -311,8 +403,8 @@ def render(theme, art, lines, info_cols):
                     % (E(l1), d1, E(v1), E(l2), d2, E(v2)))
         elif kind == "loc":
             label, dots, value = p
-            total, tail = value.split(" ( ", 1)
-            adds, dels = tail.rstrip(" )").split(", ")
+            total, rest = value.split(" ( ", 1)
+            adds, dels = rest.rstrip(" )").split(", ")
             body = ('<tspan class="lbl">%s</tspan><tspan class="dot">%s</tspan>'
                     '<tspan class="num">%s</tspan><tspan class="sep"> ( </tspan>'
                     '<tspan class="add">%s</tspan><tspan class="sep">, </tspan>'
@@ -320,16 +412,38 @@ def render(theme, art, lines, info_cols):
                     % (E(label), dots, E(total), E(adds), E(dels)))
         s.append(text(info_x, y, d, body))
 
+    # ---- cursor piscando
+    if cursor:
+        y = body_top + body_rows * lh + lh * 0.6
+        s.append(text(C.PAD_LEFT, y, 0.9,
+                      '<tspan class="nick">%s</tspan><tspan fill="%s">%s</tspan>'
+                      % (E(C.PROMPT_USER), T.get("prompt_sign", T["dash"]),
+                         E(C.PROMPT_SIGN))))
+        cx = C.PAD_LEFT + (len(C.PROMPT_USER) + len(C.PROMPT_SIGN) + 1) * ch
+        s.append('<rect class="cur" x="%.1f" y="%.1f" width="%.1f" height="%.1f" '
+                 'fill="%s"/>' % (cx, y - fs * 0.55, ch * 0.95, fs * 1.05,
+                                   T.get("cursor", T["value"])))
+
     s.append('</svg>')
     return "\n".join(s)
 
 
 # -------------------------------------------------------------------- main ---
-def main():
-    art = [l.rstrip("\n") for l in
-           open(C.ASCII_FILE, encoding="utf-8").read().split("\n")]
+def read_art():
+    art = open(C.ASCII_FILE, encoding="utf-8").read().split("\n")
     while art and not art[-1].strip():
         art.pop()
+    tone = None
+    tone_file = getattr(C, "TONE_FILE", None)
+    if tone_file and os.path.exists(tone_file):
+        tone = open(tone_file, encoding="utf-8").read().split("\n")
+        tone = (tone + [""] * len(art))[:len(art)]
+        tone = [(t + " " * len(a))[:len(a)] for t, a in zip(tone, art)]
+    return art, tone
+
+
+def main():
+    art, tone = read_art()
 
     if OFFLINE or not TOKEN:
         if not OFFLINE:
@@ -347,7 +461,7 @@ def main():
     lines = build_lines(data)
     cols = measure(lines)
     for theme, path in C.OUTPUT.items():
-        svg = render(theme, art, lines, cols)
+        svg = render(theme, art, tone, lines, cols)
         open(path, "w", encoding="utf-8").write(svg)
         print("%-16s %5d bytes" % (path, len(svg)))
 
