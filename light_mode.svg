@@ -41,7 +41,7 @@
 </g>
 <text class="f" x="517.6" y="106" style="animation-delay:0.50s"><tspan class="nick">gbrlevi@github</tspan><tspan class="dash"> ------------------------------------------------</tspan></text>
 <text class="f" x="517.6" y="144" style="animation-delay:0.59s"><tspan class="lbl">OS:</tspan><tspan class="dot"> ................................... </tspan><tspan class="val">Arch Linux / Windows 11</tspan></text>
-<text class="f" x="517.6" y="163" style="animation-delay:0.64s"><tspan class="lbl">Uptime:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">22 years, 9 months, 22 days</tspan></text>
+<text class="f" x="517.6" y="163" style="animation-delay:0.64s"><tspan class="lbl">Uptime:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">22 years, 9 months, 23 days</tspan></text>
 <text class="f" x="517.6" y="182" style="animation-delay:0.68s"><tspan class="lbl">Host:</tspan><tspan class="dot"> .................................................. </tspan><tspan class="val">Exitus</tspan></text>
 <text class="f" x="517.6" y="201" style="animation-delay:0.72s"><tspan class="lbl">Kernel:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">Universidade de Fortaleza</tspan></text>
 <text class="f" x="517.6" y="220" style="animation-delay:0.77s"><tspan class="lbl">IDE/Text.Editor:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">VSCode, IntelliJ IDEA, Vim</tspan></text>
@@ -57,8 +57,8 @@
 <text class="f" x="517.6" y="505" style="animation-delay:1.44s"><tspan class="lbl">LinkedIn:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">linkedin.com/in/gbrlevi</tspan></text>
 <text class="f" x="517.6" y="543" style="animation-delay:1.53s"><tspan class="sec">- GitHub Stats </tspan><tspan class="dash">------------------------------------------------</tspan></text>
 <text class="f" x="517.6" y="562" style="animation-delay:1.58s"><tspan class="lbl">Repos:</tspan><tspan class="dot"> ... </tspan><tspan class="num">25 {Contributed: 4}</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Stars:</tspan><tspan class="dot"> ..................... </tspan><tspan class="num">4</tspan></text>
-<text class="f" x="517.6" y="581" style="animation-delay:1.62s"><tspan class="lbl">Commits:</tspan><tspan class="dot"> ................. </tspan><tspan class="num">412</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Followers:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">19</tspan></text>
-<text class="f" x="517.6" y="600" style="animation-delay:1.67s"><tspan class="lbl">Lines of Code:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">878,097</tspan><tspan class="sep"> ( </tspan><tspan class="add">913,108++</tspan><tspan class="sep">, </tspan><tspan class="rem">35,011--</tspan><tspan class="sep"> )</tspan></text>
+<text class="f" x="517.6" y="581" style="animation-delay:1.62s"><tspan class="lbl">Commits:</tspan><tspan class="dot"> ................. </tspan><tspan class="num">429</tspan><tspan class="sep"> | </tspan><tspan class="lbl">Followers:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">19</tspan></text>
+<text class="f" x="517.6" y="600" style="animation-delay:1.67s"><tspan class="lbl">Lines of Code:</tspan><tspan class="dot"> ................ </tspan><tspan class="num">879,647</tspan><tspan class="sep"> ( </tspan><tspan class="add">915,141++</tspan><tspan class="sep">, </tspan><tspan class="rem">35,494--</tspan><tspan class="sep"> )</tspan></text>
 <text class="f" x="22" y="668.4" style="animation-delay:0.90s"><tspan class="nick">gbrlevi@github</tspan><tspan fill="#6e7781">:~$</tspan></text>
 <rect class="cur" x="173.2" y="660.7" width="8.0" height="14.7" fill="#1a7f37"/>
 </svg>
