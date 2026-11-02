@@ -65,14 +65,14 @@
   "pushedAt": "2025-10-04T14:43:48Z"
  },
  "gbrlevi/furto": {
-  "add": 14378,
-  "del": 565,
-  "pushedAt": "2026-10-27T11:05:13Z"
+  "add": 14451,
+  "del": 588,
+  "pushedAt": "2026-11-02T14:47:22Z"
  },
  "gbrlevi/gbrlevi": {
-  "add": 1958,
-  "del": 1030,
-  "pushedAt": "2026-10-31T12:20:06Z"
+  "add": 1967,
+  "del": 1039,
+  "pushedAt": "2026-11-01T13:15:49Z"
  },
  "gbrlevi/guessthe-backend": {
   "add": 3661,
@@ -113,6 +113,11 @@
   "add": 87079,
   "del": 28246,
   "pushedAt": "2026-09-28T02:38:04Z"
+ },
+ "gbrlevi/lira-chatbot": {
+  "add": 11998,
+  "del": 857,
+  "pushedAt": "2026-11-01T21:39:25Z"
  },
  "gbrlevi/nutricao-frontend-final": {
   "add": 11081,
